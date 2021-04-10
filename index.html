@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Aurora</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <!--ნავიგაცია-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <img src="icon.png" style="width: 60px; padding-right: 20px;">
+                  <a class="navbar-brand" href="#">Aurora</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#discover">Discover</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sing up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-warning" type="submit">Buy</button>
+                  </div>
+                </div>
+              </nav>
+              <!--background ვიდეო-->
+            <div class="mid">
+                <video autoplay muted loop>
+                    <source class="embed-responsive" src="vid.mp4" type="video/mp4">
+                </video>
+                <div class="main-text">
+                    <h2 class="text-light display-4 fw-bold">შენი წარმატება იწყება აქედან</h2>
+                    <p class="text-light">Aurora- პირველი ქართული კრიპტოვალუტა (პირველი არა მაგრამ ვითომ პირველია)</p>
+                </div>
+            </div>
+        </header>
+        <!--ინფორმაცია აურორას შესახებ (ნაღდი ინფო)-->
+        <section class="about py-5" id="about">
+            <div class="row align-items-center container my-5 mx-auto">
+                <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5" >
+                    <h6>FACTS</h6>
+                    <h2>რა არის Aurora?</h2>
+                    <p>Aurora არის ქართული კრიპტოვალუტა რომელიც შეიქმნა 2021 წელს და უკვე ლიდერობს კრიპტოვალუტების სიაში</p>
+                </div>
+                <div class="image text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                    <img class="img-fluid" src="stocking.png">
+                </div>
+            </div>
+        </section>
+        <selection class="discovery" id="discover">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <h2>გარანტირებული მოგება</h2>
+                <P>Aurora-ს კურსი ყოველწამიერად იზრდება გააკეთე ინვესტიცია ახლა რომ რაც შეიძლება დიდ მოგებაში დარჩე!</P>
+            </div>
+            <table class="table">
+                <thead>
+                  <tr class="table-dark">
+                    <th scope="col">#</th>
+                    <th scope="col">კრიპტოვალუტის</th>
+                    <th scope="col">აღნიშვნა</th>
+                    <th scope="col">კურსი აშშ დოლარებში</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-dark">
+                    <th scope="row">1</th>
+                    <td>Aurora</td>
+                    <td>ARR</td>
+                    <td>137,809$</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <th scope="row">2</th>
+                    <td>Bitcoin</td>
+                    <td>BTC</td>
+                    <td>59,102$</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <th scope="row">3</th>
+                    <td>Yearn.finance</td>
+                    <td>YFI</td>
+                    <td>36,481$</td>
+                  </tr>
+                </tbody>
+              </table>
+        </selection>
+        <!--ბუთსტრაპის სკრიპტი-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    </body>
+</html>
